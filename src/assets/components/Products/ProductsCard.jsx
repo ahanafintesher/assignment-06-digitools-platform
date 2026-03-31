@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 
-const ProductsCard = ({ product }) => {
+const ProductsCard = ({ product, cart, setCart }) => {
   const [isPurchased, setIsPurchased] = useState(false);
   const handleClick = () =>{
     setIsPurchased(true);
+    setCart([...cart, product]);
   }
   return (
     <div >
@@ -45,9 +46,16 @@ const ProductsCard = ({ product }) => {
           ))}
         </ul>
         {/* Button */}
-        <button onClick={handleClick} className="btn w-full mt-6 bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-full font-bold hover:scale-105 transition-all duration-300">
-         {isPurchased ? "Added to Cart!" : "Buy Now"}
-        </button>
+        <button 
+  onClick={handleClick} 
+  className={`btn w-full mt-6 rounded-full font-bold hover:scale-105 transition-all duration-300
+    ${isPurchased 
+      ? "bg-green-500 text-white border-none" 
+      : "bg-linear-to-r from-indigo-600 to-purple-500 text-white"
+    }`}
+>
+  {isPurchased ? "✓ Added to Cart!" : "Buy Now"}
+</button>
       </div>
     </div>
   );

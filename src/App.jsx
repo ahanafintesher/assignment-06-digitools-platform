@@ -9,6 +9,7 @@ import Heading from "./assets/components/Products_heading/Heading";
 import GetStarted from "./assets/components/Get_Started/GetStarted";
 import Pricing from "./assets/components/Banner/Pricing/Pricing";
 import Ready from "./assets/components/Ready/Ready";
+import Footer from "./assets/components/Footer/Footer";
 
 const loadData = async () => {
   const res = await fetch("/data.json");
@@ -66,6 +67,7 @@ function App() {
         <GetStarted></GetStarted>
         <Pricing></Pricing>
         <Ready></Ready>
+        <Footer></Footer>
       </div>
     </>
   );

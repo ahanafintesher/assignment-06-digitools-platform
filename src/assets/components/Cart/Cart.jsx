@@ -1,5 +1,6 @@
 import React from "react";
 import { CiShoppingCart } from "react-icons/ci";
+import { toast } from "react-toastify";
 
 const Cart = ({ cart, setCart }) => {
   const totalPrice = cart.reduce((sum, item) => sum + item.price, 0);
@@ -7,20 +8,22 @@ const Cart = ({ cart, setCart }) => {
   const handleRemove = (id) => {
     const updatedCart = cart.filter((item) => item.id !== id);
     setCart(updatedCart);
+    toast.success('Item deleted!')
   };
 
   const handlePayment = () => {
     setCart([]);
+    toast.success('Payment successfull!')
   };
 
   return (
     <div className="container mx-auto mt-10">
       <div className="bg-white rounded-2xl shadow-md p-6 max-w-6xl mx-auto">
         
-        {/* Header */}
+        
         <h2 className="text-xl font-bold text-gray-800 mb-4">Your Cart</h2>
 
-        {/* Empty Cart Check */}
+       
         {cart.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-16 gap-4">
             <div >
@@ -28,11 +31,11 @@ const Cart = ({ cart, setCart }) => {
 
             </div>
             <h3 className="text-xl font-bold text-gray-700">Your cart is empty!</h3>
-            <p className="text-gray-400 text-sm">Add some products to get started</p>
+           
           </div>
         ) : (
           <>
-            {/* Cart Items */}
+           
             <div className="space-y-3">
               {cart.map((product) => (
                 <div key={product.id} className="flex items-center justify-between bg-gray-50 rounded-xl px-4 py-3">
@@ -53,13 +56,13 @@ const Cart = ({ cart, setCart }) => {
               ))}
             </div>
 
-            {/* Total */}
+            
             <div className="flex items-center justify-between mt-6">
               <span className="text-gray-500 font-medium">Total:</span>
               <span className="text-2xl font-bold text-gray-800">${totalPrice}</span>
             </div>
 
-            {/* Checkout Button */}
+            
             <button
               onClick={handlePayment}
               className="btn w-full mt-4 bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-full font-bold hover:scale-105 transition-all duration-300"

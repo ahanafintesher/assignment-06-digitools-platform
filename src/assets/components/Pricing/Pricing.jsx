@@ -6,7 +6,7 @@ const Pricing = () => {
     <div className="py-16 px-4">
       <div className="container mx-auto">
 
-        {/* Header */}
+        
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-900">
             Simple, Transparent Pricing
@@ -16,10 +16,10 @@ const Pricing = () => {
           </p>
         </div>
 
-        {/* Cards */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
 
-          {/* Starter */}
+          
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm h-full">
             <h3 className="text-lg font-bold text-gray-800">Starter</h3>
             <p className="text-gray-400 text-sm mb-4">Perfect for getting started</p>
@@ -46,9 +46,9 @@ const Pricing = () => {
             </button>
           </div>
 
-          {/* Pro - Most Popular */}
+         
           <div className="bg-linear-to-b from-indigo-600 to-purple-500 rounded-2xl p-8 shadow-lg relative scale-105">
-            {/* DaisyUI Badge */}
+           
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
               <span className="badge badge-warning text-white whitespace-nowrap font-bold px-4">
                 Most Popular
@@ -85,7 +85,7 @@ const Pricing = () => {
             </button>
           </div>
 
-          {/* Enterprise */}
+          
           <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm h-full">
             <h3 className="text-lg font-bold text-gray-800">Enterprise</h3>
             <p className="text-gray-400 text-sm mb-4">For teams and businesses</p>

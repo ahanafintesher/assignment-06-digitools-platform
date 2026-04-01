@@ -90,7 +90,7 @@ const Navbar = ({ cart }) => {
           <button className="btn btn-ghost btn-sm text-sm lg:text-lg font-semibold">
             Login
           </button>
-          <button className="btn btn-sm text-sm lg:text-lg font-semibold bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-3xl">
+          <button className="btn btn-sm text-sm lg:text-lg font-semibold bg-linear-to-r from-indigo-600 to-purple-500 text-white rounded-3xl ">
             Get Started
           </button>
         </div>

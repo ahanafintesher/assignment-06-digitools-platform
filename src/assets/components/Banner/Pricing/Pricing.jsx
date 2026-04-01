@@ -50,7 +50,7 @@ const Pricing = () => {
           <div className="bg-linear-to-b from-indigo-600 to-purple-500 rounded-2xl p-8 shadow-lg relative scale-105">
             {/* DaisyUI Badge */}
             <div className="absolute -top-4 left-1/2 -translate-x-1/2">
-              <span className="badge badge-warning text-white font-bold px-4">
+              <span className="badge badge-warning text-white whitespace-nowrap font-bold px-4">
                 Most Popular
               </span>
             </div>

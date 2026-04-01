@@ -13,6 +13,6 @@ A modern digital marketplace for premium tools, templates, and AI-powered servic
 
 ## Features
 
-- Curated collection of digital products with pricing and categories
-- Responsive and clean UI for smooth user experience
-- Product cards with tags, features, and purchase options
+- Toggle between Products and Cart sections with a fully functional cart system
+- Navbar cart icon updates dynamically when users click "Buy Now"
+- Responsive UI with curated product listings, pricing, and feature highlights

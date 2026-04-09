@@ -4,8 +4,6 @@ A modern e-commerce platform for buying and selling premium AI-powered digital t
 
 🌐 **Live Site:** [digitoolsplatform011.netlify.app](https://digitoolsplatform011.netlify.app)
 
----
-
 ## 📸 Screenshot
 
 

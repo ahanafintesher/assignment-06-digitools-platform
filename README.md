@@ -8,7 +8,7 @@ A modern e-commerce platform for buying and selling premium AI-powered digital t
 
 
 
-img width="1918" height="897" alt="Screenshot 2026-04-01 160853" src="https://github.com/user-attachments/assets/223d1241-7da4-4020-a6b9-a43aee8db2f1" />
+---img width="1918" height="897" alt="Screenshot 2026-04-01 160853" src="https://github.com/user-attachments/assets/223d1241-7da4-4020-a6b9-a43aee8db2f1" />
 
 
 ## 🚀 Tech Stack

@@ -8,10 +8,8 @@ A modern e-commerce platform for buying and selling premium AI-powered digital t
 
 <img width="1918" height="897" alt="Screenshot 2026-04-01 160853" src="https://github.com/user-attachments/assets/6fe826a8-6498-480a-ae97-7b69f73e8d76" />
 
+<img width="1763" height="845" alt="image" src="https://github.com/user-attachments/assets/7d1622ea-b14b-42fa-8ca1-e806ffe979d0" />
 
-
-
-<img width="807" height="584" alt="Screenshot 2026-03-31 133819" src="https://github.com/user-attachments/assets/f937eb09-7021-437d-9bf0-6f27f99b7501" />
 
 <img width="825" height="381" alt="Screenshot 2026-03-31 234257" src="https://github.com/user-attachments/assets/e9b479d5-c223-4440-80eb-2806eb933acb" />
 
